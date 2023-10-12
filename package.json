@@ -1,8 +1,9 @@
 {
-  "name": "express-repost",
-  "version": "1.0.0",
+  "name": "express-relay",
+  "version": "1.0.7",
   "description": "An express middleware that relays your request to another URL",
   "main": "index.js",
+  "types": "index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -12,8 +13,8 @@
   "dependencies": {
     "extend": "^3.0.0",
     "object.omit": "^2.0.0",
-    "request": "^2.75.0",
-    "request-promise": "^4.1.1"
+    "axios": "1.5.1",
+    "@types/express": "4.17.19"
   },
   "devDependencies": {
     "express": "^4.14.0"
